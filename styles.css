@@ -213,7 +213,7 @@ nav {
   }
   100% {
     opacity: 1;
-    transform: translateY(0)''
+    transform: translateY(0);
   }
 }
 .about-me__img--container {
@@ -245,7 +245,7 @@ nav {
     transform: rotate(0);
   }
   50% {
-    tranform: rotate(30deg);
+    transform: rotate(30deg);
   }
   100% {
     transform: rotate(0);
@@ -427,13 +427,13 @@ footer {
   position: relative;  
 }
 
-.footer__anchor:hoover .footer__logo--popper {
+.footer__anchor:hover .footer__logo--popper {
   transform: translateX(60px);  
   opacity: 1;
 }
 
 /* Small phones, tablet, large smartphones */
-@media (max-wdith: 768) {
+@media (max-width: 768) {
    nav {
     height: 68px;
    } 
